@@ -1,5 +1,6 @@
 body {
 	background-color: #000000;
+	text-align: center;
 }
 h1, p {
 	color: white;
@@ -9,9 +10,7 @@ img {
 	width: 100%;
 }
 
-h1 {
-	font-family: Arial;
-}
 
-h1  {
-	text-align: center
+h1, p {
+	font-family: papyrus;
+}
