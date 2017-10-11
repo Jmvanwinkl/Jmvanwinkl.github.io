@@ -1,0 +1,29 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+body {
+	background-color: #000000;
+	text-align: center;
+	color: white;
+	font-family:papyrus, cursive;
+	line-height:1.3;
+}
+h2{
+	font-family: 'Nunito';
+	line-height: 1.3;
+	font-size: 1em
+}
+	
+
+}
+#hero {
+	background: url(../images/GettyImages-587827244.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 5em 3em 0;
+	height: 90vh;
+	text-align: right;
+	font-size: 2em;
+}
+	
+
+
