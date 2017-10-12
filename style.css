@@ -1,7 +1,66 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Courgette|Domine);
+
+
 body {
-	background-color: #FFFFFF;
+	background-color: #000000; 
+	text-align: center;
+	color: white;
+	font-family:papyrus, cursive;
+	line-height:1.5;
+	padding: 1em 1em 0;
+	background-size: cover;	
+
+
 }
-	h1, p {
-		color: white;
+h2{	
+	font-family: 'Courgette', cursive;
+    font-family: 'Domine', serif;
+	line-height: 1.3;
+	font-size: 1.5em;
+	color:#E4E5E8;
+	padding: 0;
+	margin: 0; 
+	font size: 2em;
+
+}
+
+img{
+	width: 30%;
+	padding: 0;
+	margin: 0;
+}
+section{
+	padding: 1em 3em 0;
+	background-color: #AAADB2;	
+	background-repeat: no-repeat;
+	line-height: : 1%
+
+}
+aside {
+	float: left;
+
+}
+#hero {
+	background color: #E3E3E8;
+	background-size:cover; 
+	background-repeat:no-repeat;
+	padding: 1em 3em 0;
+	height: 35vh;
+	text-align: right;
+	font-size: 2em;
+
 	}
-	<link rel= "stylesheet" type= "text/css" href="css/style.css">
+
+nav a {
+
+	margin-right: 22px; 
+	font-family: 'Nunito';
+	color: #E4E5E8;
+	padding: 0;
+	margin: 0;
+
+}
+
+
