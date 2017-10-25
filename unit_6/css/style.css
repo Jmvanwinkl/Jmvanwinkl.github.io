@@ -1,0 +1,107 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Courgette|Domine);
+
+body {
+	background-color: #4B5C73;
+	font-size: 1em; 
+	text-align: center;
+	color: white;
+	font-family: Nunito, serif;
+	padding: 4em 0em 0;
+
+
+}
+
+header {
+	background-color: #8EB097;
+	font-size: 1em;
+	border: 1px black solid;
+	padding; 20px;
+	margin top: 20px; 
+	font-family: 'Domine',serif;
+	line-height: 1.3;
+	
+
+
+}
+
+article{
+	font-family: papyrus, sans-serif;
+	font-size: 1em;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: papyrus, sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+
+
+#two_column{
+	background-color: #596370;
+	border: 1px black solid;
+	padding: 20px;
+
+
+}
+
+#left{
+	background-color: #85A5A8;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width:30%;
+
+}
+#right{
+	background-color: #85A5A8;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+
+}
+#right a{
+	color: red;
+}
+nav a {
+	text-align: center;
+	font-size: 1.25em;
+	padding:10px 0;
+	margin-right: 22px;
+	font-family: 'Courgette';
+	line-height: 2.3;
+
+}
+nav a:hover{
+	background-color: #BAA2D6;
+}
+
+img {
+	width: 30%;
+	padding: 0;
+	margin: 0;
+
+}
+footer{
+	background-color: #8EB097;
+	padding: 4px;
+	margin:0;
+	margin-top: 20px; 
+	font-size: 20px;
+	font-family: 'Nunito';
+	line-height: 2.3;
+
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height:0;
+}
