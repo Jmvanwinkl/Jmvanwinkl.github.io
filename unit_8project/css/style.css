@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+body{
+	background: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+nav{
+	background-color: black;
+	font-family: arial; sans-serif;
+}
+
+#two_column{
+
+	padding:20px;
+	border-width: 50%
+}
+
+#left{
+	float: left;
+	width: 30%;
+}
+#right{
+	float: right;
+	width: 30%;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
