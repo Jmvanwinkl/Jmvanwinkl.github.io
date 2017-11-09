@@ -64,15 +64,10 @@ div{
 }
 
 h3{
-	float: right;
-	font-family: 'Nunito',sans-serif;
-	font-size: 20px;
-	column-gap: 40px;
-	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+	line-height: 0px;
+	font-family: 'Nunito', sans-serif, bold;
+	padding: 0;
 }
-
 #container{
 	background:url(../images/GettyImages-481027328.jpg) no-repeat center top;
 	height: 300px;
@@ -131,8 +126,9 @@ h3{
 	z-index: 2;
 	position: relative;
 	width: 80%;
+	font-weight: 50%;
 	float:left;
-	font-family: 'Nunito';
+	font-family: 'Nunito', sans-serif, bold;
 	border-width: right;
 	
 }
@@ -143,13 +139,11 @@ h3{
 	float: right;
 	position: right; 
 	border-width: 100%;
-	line-height: 2px left;
-	font-family: 'Nunito';
+	font-family: 'Nunito'bold;
 	column-width: 50px;
 	
 }
 
-}
 
 #about{
 	padding: 0;
@@ -195,3 +189,11 @@ footer{
 	clear: both;
 	height:0;
 }
+
+@media screen and (min-width: 640px){
+	body{
+		font-size: 100%;
+	}
+
+
+
