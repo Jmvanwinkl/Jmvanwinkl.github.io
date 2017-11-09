@@ -56,16 +56,30 @@ div{
 	overflow: auto;
 	border: none;
 	padding: 20px;
+	column-gap: 40px;
 	 -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
 
 }
 
+h3{
+	float: right;
+	font-family: 'Nunito',sans-serif;
+	font-size: 20px;
+	column-gap: 40px;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
 #container{
 	background:url(../images/GettyImages-481027328.jpg) no-repeat center top;
 	height: 300px;
 	position: relative;
+	-webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 2; /* Firefox */
+    columns: 50px 2;
 }
 #overlay{
 	background: rgba(255,255,255,0.6);
@@ -75,6 +89,7 @@ div{
 	top: 0;
 	left: 0;
 	z-index: 1;
+
 }
 
 #two_column {
@@ -102,6 +117,7 @@ div{
 	float: right;
 	max-width: 50%;
 	font-size: 20px;
+	line-height: 1.7px center;
 	font-family: 'Courgette';
 
 }
@@ -118,7 +134,7 @@ div{
 	float:left;
 	font-family: 'Nunito';
 	border-width: right;
-
+	
 }
 
 #right2{
@@ -127,8 +143,12 @@ div{
 	float: right;
 	position: right; 
 	border-width: 100%;
+	line-height: 2px left;
 	font-family: 'Nunito';
 	column-width: 50px;
+	
+}
+
 }
 
 #about{
