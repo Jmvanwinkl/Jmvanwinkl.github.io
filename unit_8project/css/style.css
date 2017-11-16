@@ -1,36 +1,31 @@
-*{margin:0;padding:0;box-sizing:border-box;}
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body{
-	background: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+	background-color: blue;
+	font-size: 16px;
+	position: relative;
+}
+header{
+	padding: 0 200px;
 }
 nav{
-	background-color: black;
-	font-family: arial; sans-serif;
+	margin: auto;
+	text-align: center;
 }
+nav a:link{
+	padding: 0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	trasition: color ease-in-out .5s;
 
-#two_column{
 
-	padding:20px;
-	border-width: 50%
-}
-
-#left{
-	float: left;
-	width: 30%;
-}
-#right{
-	float: right;
-	width: 30%;
-}
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: "";
-	clear: both;
-	height: 0;
 }
