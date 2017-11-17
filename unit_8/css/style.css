@@ -1,0 +1,122 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Courgette|Domine);
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+
+body{
+	background: #BBC2D1;
+	font-family: 'Arima madurai', cursive;
+	font-color: black;
+	padding: 0;
+	margin:0;
+}
+
+nav{
+	text-align: center;
+	background-color: white;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 1.05em;
+	padding: 0;
+	margin-top: 3;
+
+}
+
+a{
+	margin-right:10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color:#F0F58C;
+}
+
+header{
+	background-color:#41B7CC;
+	text-align: center;
+	padding:20px;
+	
+}
+h1{
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 40px bold;
+	text-align: center;
+	padding: 20px;
+}
+h2{
+	text-decoration: underline;
+}
+p{
+	font-family:'nunito';
+	font-size:20px;
+	padding:10px;
+
+}
+img{
+	padding:1;
+	padding-left: 150px;
+	margin:3em;
+	size: 50%;
+}
+
+
+.floatleft { 
+	float: left; 
+	margin: 0 0 10px 10px;
+	padding: 2px;
+}
+
+#container{
+	width: 90%;
+	margin: 10px auto;
+	background-color: ##BBC2D1;
+	color: #333;
+	border: 1px solid gray;
+	line-height: 130%;
+
+}
+
+#leftnav{
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#content{
+	margin-left: 200px;
+	border-left: 1px solid;
+	padding: 1em;
+	max-width: 36em;
+	float:right;
+}
+
+footer{
+	background-color:white;
+	clear: both;
+	margin: 0;
+	padding: 3emm;
+	border-top: 100px solid #41B7CC;
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+
+}
+
+.clearfix:after{
+	height: 0
+	font-size:0;
+	visibility: hidden;
+	display: block;
+	content:"";
+	clear:both;
+}
+@media screen and (max-width: 1600px){
+	img{
+		display: 50%;
+
+	}
+	header{
+		padding: 0 10%;
+	}
+}
